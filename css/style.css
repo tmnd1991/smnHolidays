@@ -1,0 +1,51 @@
+.slideshow-wrapper
+{
+	width: 100%;
+	z-index: -1;
+}
+.top-bar
+{
+	border-radius: 10px;
+	margin-bottom: -3rem;
+}
+#content
+{
+	margin-top : -3rem;
+	min-height: 300px;
+}
+#content .panel
+{
+	border-radius: 10px;
+	background-image:url('../img/texture.png');
+}
+body{
+	  background-color: rgb(229,229,229);
+}
+.preloader img
+{
+	height: 800px;
+}
+
+
+
+
+/* STICKY FOOTER */
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+.footer, .push {
+	height: 4rem;
+	clear: both;
+}
+.footer{
+	background-image: url('../img/texture.png');
+}

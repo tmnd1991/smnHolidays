@@ -1,0 +1,99 @@
+/* MAP */
+#map_canvas {
+  width: 500px;
+  height: 400px;
+  background-color: #CCC;
+}
+#map_content {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
+#map_content p
+{
+	font-size: 20px;
+}
+.ios_radioboxes #lab_auto
+{
+	background-image: url('/img/sprite-veichles.png');
+	background-position: 0 -80px;
+	height: 40px;
+	width: 40px;
+}
+#auto:checked+label
+{
+	background-position: 0 -120px;
+}
+.ios_radioboxes #lab_bici
+{
+	background-image: url('/img/sprite-veichles.png');
+	background-position: 0 -320px;
+	height: 40px;
+	width: 40px;
+}
+#bici:checked+label
+{
+	background-position: 0 -360px;
+}
+.ios_radioboxes #lab_bus
+{
+	background-image: url('/img/sprite-veichles.png');
+	background-position: 0 -160px;
+	height: 40px;
+	width: 40px;
+}
+#bus:checked+label
+{
+	background-position: 0 -200px;
+}
+
+.ios_radioboxes input
+{
+	display: none;
+}
+
+/* DIRECTIONS */ 
+#directions.pricing-table .bullet-item
+{
+	text-align: left;
+}
+.row.options
+{
+}
+.direction_title
+{
+	font-weight: bold;
+	background-color: #5da423;
+	padding: 0.9375em;
+	color: #333333;
+	font-size: 0.875em;
+	border-color:#457a1a;
+	border-bottom: dotted 1px #dddddd;
+}
+.direction_warning
+{
+	font-weight: bold;
+	background-color: red;
+	padding: 0.9375em;
+	color: black;
+	font-size: 0.875em;
+	background-color: #ff0033;
+	border-color:#970b0e;
+	border-bottom: dotted 1px #dddddd;
+}
+.url_to_google
+{
+	font-weight: bold;
+	background-color: red;
+	padding: 0.9375em;
+	color: white;
+	font-size: 0.875em;
+	background-color: #2ba6cb;
+	border-color:#2284a1;
+	border-bottom: dotted 1px #dddddd;
+}
+.url_to_google a
+{
+	color: white;
+	text-decoration: none;
+}
